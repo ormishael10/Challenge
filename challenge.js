@@ -1,6 +1,6 @@
 const { AptosClient } = require('aptos');
 
-const lavaGatewayRpcUrl = 'https://gateway.lavanet.xyz/rpc';
+const lavaGatewayRpcUrl = 'https://g.w.lavanet.xyz:443/gateway/apt1/rest/3ea9edd53e0f2d8b1322a3580baa4755';
 
 const aptosClient = new AptosClient({
   nodeUrl: lavaGatewayRpcUrl, 
